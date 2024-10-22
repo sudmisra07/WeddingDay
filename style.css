@@ -15,7 +15,7 @@ html, body {
 
 body {
     background: url('src/bg.gif') no-repeat center center fixed;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .overlay {
@@ -29,7 +29,7 @@ body {
 .countdown-container {
     text-align: center;
     color: #9a2462;
-    margin-bottom: 40%;
+    margin-bottom: 10%;
 }
 
 .countdown-timer {
@@ -39,8 +39,11 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .countdown-timer {
         font-size: 2rem;
+    }
+    .countdown-container{
+        margin-bottom: 40%;
     }
 }
